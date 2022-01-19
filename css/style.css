@@ -13,6 +13,7 @@
 
 header .logo {
     width: 8rem;
+    margin-bottom: .5rem;
 }
 
 /* STYLE FOR UPPER MENU */
@@ -21,7 +22,7 @@ ul {
 }
 
 li {
-    line-height: 2rem;
+    line-height: 2.5rem;
     display: inline-block;
     font-size: .7rem;
     font-weight: 600;
@@ -141,11 +142,11 @@ a:hover {
 footer {
     margin: .5rem auto;
     text-align: center;
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 footer span {
     color: red;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 /* END STYLE FOR FOOTER */
