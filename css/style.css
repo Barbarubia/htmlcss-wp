@@ -12,7 +12,7 @@
 }
 
 header .logo {
-    width: 15%;
+    width: 8rem;
 }
 
 /* STYLE FOR UPPER MENU */
@@ -40,15 +40,42 @@ a:hover {
     background-color: #c3c3c3;
     border-radius: .4rem;
 }
-
 /* END STYLE FOR UPPER MENU */
 
-/* Gold rectangle */
-.header-2 {
-    background-color: #e1d67a;
-    height: 15rem;
+/* STYLE FOR BANNER SECTION */
+.banner {
+    /* height: 20rem; */
     margin: 1em 0;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    background-position: center;
+    border-radius: .6rem;
+    }
+
+.banner-layer {
+    background-color: rgba(0,0,0,.2);
+    border-radius: .6rem;
+    width: 100%;
+    height: 100%;
 }
+
+.banner-content {
+    padding: 12rem 45% 2.5rem 2rem;
+    color: #ffffff;
+}
+
+.banner-content h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.banner-content p {
+    font-size: .6rem;
+}
+
+/* END STYLE FOR BANNER SECTION */
 
 /* Blue rectangle */
 .content {
@@ -87,9 +114,15 @@ a:hover {
     clear: both;
 }
 
-/* Violet rectangle */
+/* STYLE FOR FOOTER */
 footer {
-    background-color: #8801fe;
-    height: 2rem;
-    margin-top: .5rem;
+    margin: .5rem auto;
+    text-align: center;
+    font-size: .7rem;
 }
+
+footer span {
+    color: red;
+    font-size: .9rem;
+}
+/* END STYLE FOR FOOTER
