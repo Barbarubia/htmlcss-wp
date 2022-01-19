@@ -28,7 +28,7 @@ li {
 }
 
 a {
-    color: #c3c3c3;
+    color: #8f8f8f;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
@@ -37,7 +37,7 @@ a {
 
 a:hover {
     color: #ffffff;
-    background-color: #c3c3c3;
+    background-color: #8f8f8f;
     border-radius: .4rem;
 }
 /* END STYLE FOR UPPER MENU */
@@ -78,34 +78,35 @@ a:hover {
 /* END STYLE FOR BANNER SECTION */
 
 /* STYLE FOR CONTENT SECTION */
-/* Blue rectangle */
-.content {
-    background-color: #0086ff;
-}
-
-/* Lightblue rectangles */
-.content-header,
-.column {
-    background-color: #abcfe7;
-}
-
 .content-header h2{ /* Content Title: uses a different font than the rest of the page */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8rem;
 }
 
 .content-header h3{ /* Content Subtitle */
-    color: #c3c3c3;
+    color: #8f8f8f;
     font-size: .7rem;
     font-weight: 400;
 }
 
-.column img {
+.column img { /* top images of columns */
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     object-fit: cover;
     object-position: center;
     border-radius: .6rem;
+}
+
+.column h2 {
+    font-size: .8rem;
+    color: #8f8f8f;
+    font-weight: 600;
+    margin: .5rem 0 .3rem 0;
+}
+
+.column p {
+    font-size: .7rem;
+    color: #8f8f8f;
 }
 
 .left-column,
@@ -113,16 +114,15 @@ a:hover {
 .right-column {
     float: left;
     margin: 1rem 0;
-    /* height: 15rem; */
 }
 
 .left-column,
 .right-column {
-    width: calc((100% - (50% + 2rem)) / 2); /* or calc(20% - 1rem) */
+    width: calc((100% - 60% - 2rem) / 2); /* or calc(20% - 1rem) */
 }
 
 .center-column {
-    width: 50%;
+    width: 60%;
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -145,4 +145,4 @@ footer span {
     color: red;
     font-size: .9rem;
 }
-/* END STYLE FOR FOOTER
+/* END STYLE FOR FOOTER */
