@@ -87,6 +87,7 @@ a:hover {
     color: #8f8f8f;
     font-size: .7rem;
     font-weight: 400;
+    padding-bottom: .5rem;
 }
 
 .column img { /* top images of columns */
@@ -95,6 +96,7 @@ a:hover {
     object-fit: cover;
     object-position: center;
     border-radius: .6rem;
+    filter: brightness(80%); /* used to apply a "layer" to the column images */
 }
 
 .column h2 {
