@@ -77,32 +77,49 @@ a:hover {
 
 /* END STYLE FOR BANNER SECTION */
 
+/* STYLE FOR CONTENT SECTION */
 /* Blue rectangle */
 .content {
     background-color: #0086ff;
 }
 
 /* Lightblue rectangles */
-.content-header, .column {
+.content-header,
+.column {
     background-color: #abcfe7;
 }
 
-.content-header {
-    height: 3rem;
+.content-header h2{ /* Content Title: uses a different font than the rest of the page */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
 }
 
-.side-column, .main-column {
+.content-header h3{ /* Content Subtitle */
+    color: #c3c3c3;
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+.column img {
+    width: 100%;
+    border-radius: .6rem;
+}
+
+.left-column,
+.center-column,
+.right-column {
     float: left;
     margin: 1rem 0;
-    height: 15rem;
+    /* height: 15rem; */
 }
 
-.side-column {
-    width: calc((100% - (60% + 2rem)) / 2); /* or calc(20% - 1rem) */
+.left-column,
+.right-column {
+    width: calc((100% - (50% + 2rem)) / 2); /* or calc(20% - 1rem) */
 }
 
-.main-column {
-    width: 60%;
+.center-column {
+    width: 50%;
     margin-left: 1rem;
     margin-right: 1rem;
 }
