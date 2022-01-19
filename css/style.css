@@ -74,7 +74,6 @@ a:hover {
 .banner-content p {
     font-size: .6rem;
 }
-
 /* END STYLE FOR BANNER SECTION */
 
 /* STYLE FOR CONTENT SECTION */
@@ -90,27 +89,7 @@ a:hover {
     padding-bottom: .5rem;
 }
 
-.column img { /* top images of columns */
-    width: 100%;
-    height: 8rem;
-    object-fit: cover;
-    object-position: center;
-    border-radius: .6rem;
-    filter: brightness(80%); /* used to apply a "layer" to the column images */
-}
-
-.column h2 {
-    font-size: .8rem;
-    color: #8f8f8f;
-    font-weight: 600;
-    margin: .5rem 0 .3rem 0;
-}
-
-.column p {
-    font-size: .7rem;
-    color: #8f8f8f;
-}
-
+/* STYLE FOR COLUMNS IN CONTENT SECTION */
 .left-column,
 .center-column,
 .right-column {
@@ -135,6 +114,28 @@ a:hover {
     display: table;
     clear: both;
 }
+
+.column img { /* top images of columns */
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: .6rem;
+    filter: brightness(80%); /* used to apply a "layer" to the column images */
+}
+
+.column h2 {
+    font-size: .8rem;
+    color: #8f8f8f;
+    font-weight: 600;
+    margin: .5rem 0 .3rem 0;
+}
+
+.column p {
+    font-size: .7rem;
+    color: #8f8f8f;
+}
+/* END STYLE FOR CONTENT SECTION */
 
 /* STYLE FOR FOOTER */
 footer {
